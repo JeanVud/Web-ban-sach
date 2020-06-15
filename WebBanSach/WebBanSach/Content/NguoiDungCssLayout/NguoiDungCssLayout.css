@@ -1,0 +1,105 @@
+﻿
+/*Sử dụng độ rộng toàn trang*/
+div#ToanTrang {
+    position: relative;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    background-color: white;
+}
+
+/*Thiết kế link đăng ký đăng nhập*/
+.DangKyDangNhap {
+    float:right;
+    margin-top:-1%;
+}
+/**/
+.DangKyDangNhap a:hover {
+        text-decoration:none;
+        color:red; 
+}
+
+.icDienThoai {
+    float:left;
+    margin-top:-1%;
+}
+
+/*css divdanh mục*/
+#divDanhMuc {
+    height:30px;
+}
+/*css menu header*/
+.navMenu {
+    float: right;
+    margin-right:10%;
+}
+    .navMenu li {
+        display: inline;
+        border-right: solid 1px rgba(0,0,0,0.1);
+        /*Độ rộng của thanh đứng*/
+        padding: 20px;
+        padding-top: 19px;
+        padding-bottom: 22px;
+        /*css cho hover từ từ thay đổi màu*/
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
+        -ms-transition: all 0.5s ease-out;
+    }
+/*css cho hover từ từ thay đổi màu*/
+        .navMenu li:hover {
+            background-color: rgba(0,0,0,0.5);
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+        }
+.navMenu a:hover {
+    text-decoration:none;
+}
+/*css divtimkiem*/
+#txtTimKiem {
+    float:left;
+    margin-left:5%
+}
+
+#txtTimKiem input {
+        height:0;
+}
+/*css hình ảnh button hình ảnh tìm kiếm*/
+#divHinhAnhTimKiem button {
+    margin-right: -65px;
+    padding: 0 10px 0 10px;
+    background-color: #426db5;
+}
+    #divHinhAnhTimKiem button:hover {
+        background-color:rgba(0,0,0,0.5);
+    }
+#divHinhAnhTimKiem image {
+    width:30px;
+    height:30px
+}
+/*css cho nivoslider*/
+#slider {
+    float:right; 
+    width:900px;
+    height:360px;
+}
+#slider img{
+    width: 900px;
+    height: 360px;
+}
+#divMenuLeft {
+    float:left;
+}
+/*Div nhà xuất bản*/
+#divLeft {
+    width: 250px;
+    font-size: 11pt;
+    color: aliceblue;
+    text-decoration: none;
+}
+    #divLeft.item {
+        width: 100%;
+    }
+#divRight {
+    float:right;
+    width:70%;
+}
